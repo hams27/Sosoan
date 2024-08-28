@@ -1,0 +1,294 @@
+body{
+    background: rgb(186, 187, 209);
+}
+/* container1 */
+.container{
+    background: white;
+    height:245rem;
+    margin: 40px;
+border-radius: 40px;
+padding: 20px;
+}
+/* navbar */
+.nav{
+margin: 20px;
+padding: 20px;
+display:inline-flex;
+width: 93%;
+justify-content: space-between;
+}
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 10px;
+}
+.menu{
+    word-spacing: 20px;
+}
+.menu li{
+display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+.button{
+    padding: 15px;
+    text-align: center;
+text-decoration: none;
+color: black;
+border-radius: 15px;
+border: 1px solid black;
+}
+/* partone */
+.partone{
+    /* width: 200px; */
+    display: inline-flex;
+}
+.photo{
+    width: 550px;
+   margin: 100px;
+}
+.photo img{
+padding-left: 50px;
+width: 400px;
+height: 300px;
+}
+.text{
+    font-size: xx-large;
+    padding: 20px;
+}
+.link{
+    color: green;
+background-color: rgba(127, 255, 212, 0.611);
+text-decoration: none;
+width: max-content;
+padding: 10px;
+border-radius: 15px;
+}
+
+/* image */
+.home{
+    width: 400px;
+    height: 600px;
+background-image: url(./image/picture2.avif);
+background-size: cover;
+border-radius: 25px;
+
+}
+.number{
+    padding: 150px;
+    font-size: xx-large;
+    color: white;
+}
+.more{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 50px 100px;
+    margin-left: 60px;
+}
+ /*part two  */
+aside{
+    background: rgb(5, 48, 68);
+    height:160vh;
+    margin: 40px;
+    border-radius: 40px;
+    padding: 20px;       
+}
+.article{
+    color: white;
+}
+.title{
+    width: 80%;
+    padding: 30px;
+    margin: 10px;
+    display: inline-flex;
+}
+.bigtitle{
+font-size: xx-large ;
+width: 600px;
+}
+.button2{
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background-color: hwb(141 5% 32% / 0.466);
+    padding: 15px;
+    margin-left: 200px;
+    margin-top: 50px;
+    height: max-content;
+    width: 80px;
+    border-radius: 15px;
+}
+
+.option1, .option2, .option3{
+    width: 320px;
+    height: 200px;
+    padding: 10px;
+    float:inline-start;
+} 
+.option2{
+    background: rgba(128, 128, 128, 0.274);
+border-radius: 30px;
+}
+.article img{
+    width: 30px;
+    /* float:inline-start; */
+
+}
+.center{
+    background-color:white;
+    width:83%;
+    height: 450px;
+    margin: 40px;
+    padding: 50px;
+    border-radius: 30px;
+    display: inline-block;   
+}
+.australia{
+    display: inline-flex;
+    align-content: space-between;
+}
+.title2{
+    width: 600px;
+    padding: 50px;
+    font-size: x-large;
+}
+.link2 p{
+    color: rgba(0, 128, 0, 0.603);
+
+}
+.images div{
+display: inline-block;
+width: 200px;
+margin: 10px;
+border: 1px solid black;
+border-radius: 15px;
+text-align: center;
+height: 200px;
+}
+.images img{
+    width: 150px;
+}
+.blue{
+    background-color: rgb(3, 30, 43);
+    color: white;
+}
+.about{
+margin: 50px;
+height:600px;
+display: inline-flex;
+}
+.twoimage img{
+    width: 350px;
+    height: 250px;
+    display: block;
+    padding: 20px;
+}
+.div_text{
+margin: 20px;
+width: 700px;
+text-align:inherit;
+}
+.p_green{
+    background-color: rgb(15, 163, 126);
+color: white;
+height: 3rem;
+padding: 10px;
+border-radius: 20px;
+}
+.p_offwhite{
+    background-color: rgba(93, 104, 104, 0.397);
+    height: 3rem;
+padding: 10px;
+border-radius: 20px;
+}
+.section4 div{
+    display: inline-block;
+    width: 270px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+margin: 10px;
+height: 150px;
+background-color: rgba(32, 36, 36, 0.068);
+}
+.section4 .div_green{
+    background-color: rgb(24, 35, 71);
+    color: white;
+}
+.footer{
+    background-color: darkseagreen;
+    padding: 30px;
+    margin: 50px;
+    height: 500px;
+    width: 87%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.footer .container_box{
+    display: inline-flex;
+}
+.footer .container_box h1{
+    width: 900px;
+}
+.button4{
+text-decoration: none;
+color: black;
+border: 1px solid black;
+border-radius: 20px;
+padding: 10px;
+height: max-content;
+}
+.review div{
+    display: inline-block;
+width: 200px;
+}
+.star{
+    width: 30px;
+    
+}
+.end{
+    margin: 30px;
+    display: inline;
+}
+.end h2{
+font-size: x-large;
+margin: 50px;
+}
+.end li{
+    display: inline-flex;
+}
+.end li a{
+    text-decoration: none;
+color: black;
+margin: 20px;
+}
+.end li a:hover{
+    text-decoration: underline;
+}
+.sign_end{
+    text-decoration: none;
+color: black;
+margin-left: 40rem;
+border: 1px solid black;
+border-radius: 25px;
+padding: 10px;
+}
+.links a{
+    display: inline-block;
+padding: 10px;
+text-decoration: none;
+}
+.links2{
+    display: inline-block;
+    margin-left: 50rem;
+}
